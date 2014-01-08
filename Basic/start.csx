@@ -1,2 +1,6 @@
-var message = "Hello from scriptcs";
-Console.WriteLine(message);
+Greet("Hello from scriptcs");
+
+void Greet(string message)
+{
+    Console.WriteLine(message);
+}
