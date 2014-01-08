@@ -1,1 +1,2 @@
-Console.WriteLine("Hello from scriptcs");
+var message = "Hello from scriptcs";
+Console.WriteLine(message);
