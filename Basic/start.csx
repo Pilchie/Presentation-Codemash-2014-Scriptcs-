@@ -1,6 +1,5 @@
 #load "greeter.csx"
 
-#r "System.Net.Ht"
 using System.Net.Http;
 
 var greeter = new Greeter();
