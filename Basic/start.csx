@@ -1,4 +1,4 @@
 #load "greeter.csx"
 
 var greeter = new Greeter();
-greeter.Greet("Hello from scriptcs");
+greeter.Greet(ScriptArgs[0]);
