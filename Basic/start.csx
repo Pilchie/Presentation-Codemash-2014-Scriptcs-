@@ -1,6 +1,10 @@
-Greet("Hello from scriptcs");
+var greeter = new Greeter();
+greeter.Greet("Hello from scriptcs");
 
-void Greet(string message)
+class Greeter
 {
-    Console.WriteLine(message);
+    public void Greet(string message)
+    {
+        Console.WriteLine(message);
+    }
 }
