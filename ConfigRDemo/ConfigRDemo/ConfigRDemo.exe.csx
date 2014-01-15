@@ -1,4 +1,4 @@
-﻿Add("Number", 42L);
+﻿Add("Number", Fib(42));
 Add("Uri", new Uri("http://codemash.org"));
 
 #region Fun
